@@ -19,17 +19,17 @@ set -euo pipefail
 MANIFEST="${1:?Provide manifest TSV path}"
 
 # ----------------------------
-# Outputs on shared filesystem (CHANGE THESE)
+# Outputs on shared filesystem
 # ----------------------------
-OUT_ROOT="/path/to/output_root"
+OUT_ROOT="/lustre10/home/raulnmateos/Japanese_Pangenome/Pipeline/Figure_2/flagger_output"
 
 OUT_BAM_DIR="${OUT_ROOT}/minimap2_output"
 OUT_FLAGSTAT_DIR="${OUT_ROOT}/minimap2_output_samtools_flagstat"
 OUT_CRAM_DIR="${OUT_ROOT}/minimap2_output_cram"
 FLAGGER_WORK_ROOT="${OUT_ROOT}/flagger_work"
 
-# Flagger container (Apptainer SIF) (CHANGE THIS)
-FLAGGER_SIF="/path/to/flagger_v1.1.0.sif"
+# Flagger container (Apptainer SIF)
+FLAGGER_SIF="/lustre10/home/raulnmateos/Japanese_Pangenome/Pipeline/containers/flagger_v1.1.0.sif"
 
 # ----------------------------
 # Resources (tune later)
