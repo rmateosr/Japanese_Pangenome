@@ -1,0 +1,71 @@
+# Logs
+log/
+logs/
+*.log
+*.out
+*.err
+slurm-*.out
+
+# Large data files
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.cram
+*.cram.crai
+*.sam
+*.vcf
+*.vcf.gz
+*.bed
+*.gff
+*.gtf
+
+# Index files
+*.fai
+*.gzi
+*.tbi
+*.csi
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+
+# Archives
+*.tar.gz
+*.tar
+*.zip
+
+# Output directories (add specific ones as needed)
+*_output/
+results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Keep specific config/manifest examples (use git add -f if needed)
+# !example_manifest.tsv
+
+# Data manifests with cluster-specific paths
+hap_manifest.tsv
+missing_haps.tsv
+samples.txt
+
+# Quast output directories
+-r_CHM13quastoutput/

@@ -1,0 +1,1 @@
+bash /lustre10/home/raulnmateos/Japanese_Pangenome/Pipeline/Figure_2/scripts/submit_fai_array.sh /lustre10/home/raulnmateos/Japanese_Pangenome/Pipeline/Figure_2/required_data/Manifest/hap_manifest.tsv

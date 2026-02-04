@@ -1,0 +1,2 @@
+/lustre10/home/raulnmateos/Japanese_Pangenome/Pipeline/Figure_2/scripts/prep_hap_manifest.sh
+/lustre10/home/raulnmateos/Japanese_Pangenome/Pipeline/Figure_2/scripts/prep_hap_manifest_add_cram.sh
